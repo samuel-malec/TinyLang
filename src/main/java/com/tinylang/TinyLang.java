@@ -4,10 +4,11 @@ import com.tinylang.ast.Stmt;
 import com.tinylang.error.RuntimeError;
 import com.tinylang.token.Token;
 import com.tinylang.token.TokenType;
-import com.tinylang.printer.AstPrinter;
 import com.tinylang.util.TLangFileValidator;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.nio.file.Files;
 import java.nio.file.InvalidPathException;
 import java.nio.file.Path;
