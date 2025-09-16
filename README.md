@@ -191,12 +191,12 @@ arguments     ::= expression ( "," expression )*
 * Example:
 ```
     class Animal {
-        fn speak() {
+         speak() {
             print "Animal sound";
         }
     }
     class Dog extends Animal {
-        fn speak() {
+        speak() {
             print "Woof!";
         }
     }
