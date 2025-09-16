@@ -265,7 +265,7 @@ public class Parser {
 
     private Expr factor() {
         Expr expr = power();
-        while (match(TokenType.STAR, TokenType.SLASH)) {
+        while (match(TokenType.STAR, TokenType.SLASH, TokenType.PERCENT)) {
             Token operator = previous();
             Expr right = power();
             expr = new Expr.BinaryExpr(expr, operator, right);
