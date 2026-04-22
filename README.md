@@ -1,7 +1,6 @@
-# TinyLang Specification
+# TinyLang 
 
-TinyLang is a minimal, educational programming language designed for learning and writing interpreters. 
-It supports variables, arithmetic, control flow, functions, classes, and inheritance.
+Language heavily based on lox from crafting interpreters.
 
 ---
 ## Features
